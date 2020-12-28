@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/currency/core_currency.js" => "15841651362459",)); ?>

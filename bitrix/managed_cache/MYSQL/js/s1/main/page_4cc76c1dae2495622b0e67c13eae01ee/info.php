@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/local/templates/main/components/bitrix/news.list/flat_feed/script.js" => "15852920144815","/local/templates/main/components/bitrix/iblock.vote/flat/script.js" => "15852920141228",)); ?>

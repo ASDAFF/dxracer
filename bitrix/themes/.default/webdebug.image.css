@@ -1,0 +1,44 @@
+/* Main admin menu */
+#webdebug_image_icon_17 {background-image:url("icons/webdebug.image/icon_17.gif");}
+.webdebug_image_icon_17 {background:url("icons/webdebug.image/icon_17.gif") 10px 6px no-repeat !important;}
+
+/* Admin page*/
+#webdebug_image_icon_34 {background-image:url("icons/webdebug.image/icon_34.gif");}
+
+/* Popup admin menu */
+.popupmenu .popupitem .webdebug_image_icon_17 {background-image:url("icons/webdebug.image/icon_17.gif");}
+
+.webdebug-image-inner-table {width:96% !important;}
+#webdebug-image-parameters .field-name {text-align:right;}
+#webdebug-image-parameters .field-data {padding-right:12px; text-align:left;}
+
+/* Profile tabs */
+#webdebug-image-profile-tabs-general {background:url("icons/webdebug.image/profile-tabs/general.gif") center center no-repeat; height:22px; width:24px;}
+#webdebug-image-profile-tabs-save {background:url("icons/webdebug.image/profile-tabs/save.gif") center center no-repeat; height:22px; width:24px;}
+#webdebug-image-profile-tabs-convert {background:url("icons/webdebug.image/profile-tabs/convert.gif") center center no-repeat; height:22px; width:24px;}
+#webdebug-image-profile-tabs-resize {background:url("icons/webdebug.image/profile-tabs/resize.gif") center center no-repeat; height:22px; width:24px;}
+#webdebug-image-profile-tabs-properties {background:url("icons/webdebug.image/profile-tabs/properties.gif") center center no-repeat; height:22px; width:24px;}
+#webdebug-image-profile-tabs-text {background:url("icons/webdebug.image/profile-tabs/text.gif") center center no-repeat; height:22px; width:24px;}
+#webdebug-image-profile-tabs-corners {background:url("icons/webdebug.image/profile-tabs/corners.gif") center center no-repeat; height:22px; width:24px;}
+#webdebug-image-profile-tabs-watermark {background:url("icons/webdebug.image/profile-tabs/watermark.gif") center center no-repeat; height:22px; width:24px;}
+#webdebug-image-profile-tabs-reflection {background:url("icons/webdebug.image/profile-tabs/reflection.gif") center center no-repeat; height:22px; width:24px;}
+#webdebug-image-profile-tabs-borders {background:url("icons/webdebug.image/profile-tabs/borders.gif") center center no-repeat; height:22px; width:24px;}
+#webdebug-image-profile-tabs-additional {background:url("icons/webdebug.image/profile-tabs/additional.gif") center center no-repeat; height:22px; width:24px;}
+
+/* Profile edit */
+.slider-wrapper {padding:18px 0 6px 6px; position:relative;}
+	.slider-wrapper .textcontrol {height:20px; right:0; position:absolute; top:-22px;}
+		.slider-wrapper .textcontrol input {height:20px; padding:0 2px; text-align:right;}
+.webdebug-image-position-select {/*border:1px solid gray;*/ height:140px; position:relative; width:140px;}
+	.webdebug-image-position-select table {height:140px; width:140px;}
+		.webdebug-image-position-select table td {height:33%; text-align:center; vertical-align:middle; width:33%;}
+		.webdebug-image-position-select table td.l {text-align:left;}
+		.webdebug-image-position-select table td.r {text-align:right;}
+		.webdebug-image-position-select table td.t {vertical-align:top;}
+		.webdebug-image-position-select table td.b {vertical-align:bottom;}
+			.webdebug-image-position-select a {background:silver; border:1px solid gray; cursor:pointer; display:inline-block; font-size:0; height:32px; width:32px;}  .webdebug-image-position-select a.active {background:green;}
+.webdebug-image-button-test-bottom {margin-left:0; margin-top:12px; padding-top:4px;}
+.webdebug-image-button-test-top {margin-left:0; margin-bottom:12px; padding-bottom:4px;}
+	.webdebug-image-button-test-top, .webdebug-image-button-test-bottom {padding:3px 6px 3px 0;}
+.webdebug-image-photo-test {position:relative;}
+#corners-preview {font-size:0;}

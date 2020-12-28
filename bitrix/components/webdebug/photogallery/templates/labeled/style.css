@@ -1,0 +1,82 @@
+.webdebug-photogallery-labeled-wrapper{
+    width: 480px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.webdebug-photogallery-labeled .pg_block{
+    position: relative;
+    border: 15px solid white;
+    overflow: hidden;
+    height: 300px;
+    width: 450px;
+    background: url('images/loader.gif') no-repeat center center white;
+    -webkit-box-shadow:0 3px 5px #999;
+	-moz-box-shadow:0 3px 5px #999;
+	box-shadow:0 3px 5px #999;
+}
+
+.webdebug-photogallery-labeled .pg_block img{
+	width:100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.webdebug-photogallery-labeled .pg_post{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    color: white;
+    background: rgba(0,0,0,0.6);
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+.webdebug-photogallery-labeled .pg_prev_button, .pg_next_button{
+    position: absolute;
+    display: block;
+    width: 59px;
+    height: 60px;
+    top: 130px;
+    cursor: pointer;
+}
+
+.webdebug-photogallery-labeled .pg_prev_button{
+    left: -14px;
+    background: url('images/prev_button.png') top left;
+}
+
+.webdebug-photogallery-labeled .pg_next_button{
+    right: -14px;
+    background: url('images/next_button.png') top left;
+}
+
+.webdebug-photogallery-labeled .pg_prev_button:hover{
+    background: url('images/prev_button_a.png') top left;
+}
+
+.webdebug-photogallery-labeled .pg_next_button:hover{
+    background: url('images/next_button_a.png') top left;
+}
+
+.webdebug-photogallery-labeled .pg_buttons{
+    height: 13px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.webdebug-photogallery-labeled .pg_buttons span{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 0px 4px;
+    cursor: pointer;
+    background: url('images/sliderbutton.png') top left;
+}
+
+.webdebug-photogallery-labeled .pg_buttons span.active{
+    background: url('images/sliderbutton_a.png') top left;
+}

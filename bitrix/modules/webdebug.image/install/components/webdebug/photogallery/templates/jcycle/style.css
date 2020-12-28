@@ -1,0 +1,3 @@
+.webdebug-photogallery-cycle {height:200px; overflow:hidden; position:relative;}
+	.webdebug-photogallery-cycle .webdebug-photogallery-cycle-item {height:200px; position:absolute; width:100%;}
+		.webdebug-photogallery-cycle .webdebug-photogallery-cycle-item img {width:100%;}

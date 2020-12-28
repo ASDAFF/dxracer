@@ -1,0 +1,43 @@
+.webdebug-photogallery-simplest {
+	width: 350px;
+	height: 350px;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	background: url(images/indicato.gif) no-repeat 50% 40%;
+}
+.webdebug-photogallery-simplest img {
+	width: 350px;
+	height: 263px;
+	border: 3px solid #223348;
+}
+.webdebug-photogallery-simplest-thumbnails {
+	width: 210px;
+	height: 254px;
+	overflow: auto;
+	float: left;
+	list-style: none;
+	margin-top: 0px;
+	margin-left: 16px;
+	_margin-left: 8px;
+	padding: 5px;
+	border: 3px solid #223348;
+	background: #fff;
+}
+.webdebug-photogallery-simplest-thumbnails li {
+	float: left;
+	list-style:none;
+	width: 79px;
+	margin: 8px;
+	_margin: 5px;
+}
+.webdebug-photogallery-simplest-thumbnails a {
+	display: block;
+	width: 75px;
+	height: 56px;
+	padding: 1px;
+	border: 1px solid #ccc;
+}
+.webdebug-photogallery-simplest-thumbnails a:hover {
+	border-color: #405061;
+}

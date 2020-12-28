@@ -1,0 +1,300 @@
+/**SIMPLE**/
+
+.alfa1c-optiimg-simple .adm-detail-content-cell-l{
+    width: 20%;
+}
+.alfa1c-optiimg-simple .adm-detail-content-cell-r{
+    width:80%;
+}
+.alfa1c-optiimg-simple .traffic-graph{
+	width: 98%;
+    	height: 24px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 0 0 rgba(255,255,255,0.3), inset 0 2px 2px -1px rgba(180,188,191,0.7);
+    box-shadow: 0 1px 0 0 rgba(255,255,255,0.3), inset 0 2px 2px -1px rgba(180,188,191,0.7);
+    border-bottom: 1px solid #702007;
+	box-shadow: 0 0 1px 0 rgba(0,0,0,0.23);
+    border-radius: 4px 4px 4px 4px;
+    padding: 2px;
+	position:relative;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 10px;
+}
+.alfa1c-optiimg-simple .traffic-title{
+    padding: 1%;
+    display: block;
+    width: 98%;
+    text-align: center;
+    color: #4A4A4A;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+.alfa1c-optiimg-simple .traffic-graph .traffic-graph-in{
+    display: block;
+    float: left;
+	background: rgb(255, 132, 102);
+	background: -moz-linear-gradient(180deg, rgb(255, 132, 102) 30%, rgb(255, 231, 214) 100%);
+	background: -webkit-linear-gradient(180deg, rgb(255, 132, 102) 30%, rgb(255, 231, 214) 100%);
+	background: -o-linear-gradient(180deg, rgb(255, 132, 102) 30%, rgb(255, 231, 214) 100%);
+	background: -ms-linear-gradient(180deg, rgb(255, 132, 102) 30%, rgb(255, 231, 214) 100%);
+	background: linear-gradient(270deg, rgb(255, 132, 102) 30%, rgb(255, 231, 214) 100%);
+    width: 100%;
+    text-align: center;
+    border-radius: 4px 4px 4px 4px;
+    height: 24px;
+}
+.alfa1c-optiimg-simple .traffic-graph .traffic-graph-out{
+    display: block;
+    float: left;
+    background: #3088c1;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px 4px 4px 4px;
+    height: 24px;
+}
+.alfa1c-optiimg-simple .traffic-graph .traffic-info{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 29px;
+    color: #fff;
+}
+.alfa1c-optiimg-simple .traffic-graph-container{
+    float: left;
+    width: 100%;
+    border-top: 1px solid rgb(230, 237, 239);
+    box-shadow: inset 0 1px 0 #fff, inset 0 0 0 1px rgba(255,255,255, 0.3);
+    padding-top: 7px;
+    position: relative;
+background: rgb(241, 241, 241);
+background: -moz-linear-gradient(90deg, rgb(241, 241, 241) 30%, rgb(230, 237, 239) 70%);
+background: -webkit-linear-gradient(90deg, rgb(241, 241, 241) 30%, rgb(230, 237, 239) 70%);
+background: -o-linear-gradient(90deg, rgb(241, 241, 241) 30%, rgb(230, 237, 239) 70%);
+background: -ms-linear-gradient(90deg, rgb(241, 241, 241) 30%, rgb(230, 237, 239) 70%);
+background: linear-gradient(180deg, rgb(241, 241, 241) 30%, rgb(230, 237, 239) 70%);
+    border-radius: 4px 4px 4px 4px;
+}
+.alfa1c-optiimg-simple .adm-info-message-wrap{
+	float:left;
+}
+.alfa1c-optiimg-simple #optiimg_compress_result_div{
+    text-align: left;
+    width: 400px;
+    float: left;
+}
+
+/**EXTENDED**/
+.alfa1c-optiimg-extended .adm-detail-content-cell-l{
+    width: 20%;
+    vertical-align: top;
+}
+.alfa1c-optiimg-extended .adm-detail-content-cell-r{
+    width:80%;
+    vertical-align: top;
+}
+.alfa1c-optiimg-extended .alfa1c-crumbs{
+    float:left;
+}
+.alfa1c-optiimg-extended .alfa1c-dirs {
+    float: left;
+    width: 100%;
+    text-align:left;
+}
+.alfa1c-optiimg-extended .alfa1c-dirs-list {
+    max-height: 640px;
+    overflow-y: auto;
+}
+.alfa1c-optiimg-extended .alfa1c-dirs a {
+    background: url("/bitrix/panel/main/images/icons-sprite-6.png") no-repeat center -1512px;
+    background-position: left -117px;
+    padding-left: 25px;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
+.alfa1c-optiimg-extended .alfa1c-files {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+    overflow-y: scroll;
+    min-height: 480px;
+    max-height: 640px;
+}
+.alfa1c-optiimg-extended .alfa1c-files label.image-label {
+    font-size: 12px;
+    display: block!important;
+    width: 40%!important;
+    float: left!important;
+    min-width: 350px;
+    margin-left: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 5px;
+}
+.alfa1c-optiimg-extended .alfa1c-files label.adm-designed-checkbox-label{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.alfa1c-optiimg-extended .alfa1c-files div.img {
+    display: none;
+    position: absolute;
+    max-width: 400px;
+    border: 1px solid #A4B9CC;
+    background: #fff;
+    z-index: 100;
+    left: 50px;
+}
+.alfa1c-optiimg-extended .alfa1c-files img {
+    max-width: 400px;
+}
+.alfa1c-optiimg-extended .alfa1c-files label.img-type-png {
+    background: url(/bitrix/images/fileman/types/png.gif) no-repeat;
+}
+.alfa1c-optiimg-extended .alfa1c-files label.img-type-jpg,
+.alfa1c-optiimg-extended .alfa1c-files label.img-type-jpeg,
+.alfa1c-optiimg-extended .alfa1c-files label.img-type-JPG,
+.alfa1c-optiimg-extended .alfa1c-files label.img-type-JPEG {
+    background: url(/bitrix/images/fileman/types/jpeg.gif) no-repeat;
+}
+.alfa1c-optiimg-extended .alfa1c-crumbs a {
+    display: block;
+    font-size: 18px;
+    padding-left: 25px;
+    background: url("/bitrix/panel/main/images/icons-sprite-11.png") no-repeat center -1512px;
+    background-position: left -1569px;
+}
+.alfa1c-optiimg-extended .alfa1c-ready {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.alfa1c-optiimg-extended .alfa1c-ready span {
+    font-size: 12px;
+}
+.alfa1c-optiimg-extended .alfa1c-ready span.sccss {
+    color: green;
+}
+.alfa1c-optiimg-extended .alfa1c-ready span.errors {
+    color: red;
+    display: block;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.alfa1c-optiimg-extended .alfa1c-filesize {
+    font-style: italic;
+}
+.alfa1c-optiimg-extended .alfa1c.adm-navigation{
+    float: left;
+    width: 100%;
+}
+.alfa1c-optiimg-extended .adm-nav-pages-block{
+	height:auto;
+}
+.alfa1c-optiimg-extended .alfa1c-adm-nav-per-page{
+    margin-top: 13px;
+    float: left;
+}
+.alfa1c-optiimg-extended .alfa1c-adm-nav-per-page span{
+    padding-top: 5px;
+    display: block;
+    float: left;
+}
+.alfa1c-optiimg-extended .adm-nav-page{
+	margin-bottom:5px;
+}
+.alfa1c-optiimg-extended .traffic-graph{
+	width: 98%;
+    	height: 24px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 0 0 rgba(255,255,255,0.3), inset 0 2px 2px -1px rgba(180,188,191,0.7);
+    box-shadow: 0 1px 0 0 rgba(255,255,255,0.3), inset 0 2px 2px -1px rgba(180,188,191,0.7);
+    border-bottom: 1px solid #702007;
+	box-shadow: 0 0 1px 0 rgba(0,0,0,0.23);
+    border-radius: 4px 4px 4px 4px;
+    padding: 2px;
+	position:relative;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 10px;
+}
+.alfa1c-optiimg-extended .traffic-title{
+    padding: 1%;
+    display: block;
+    width: 98%;
+    text-align: center;
+    color: #4A4A4A;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+.alfa1c-optiimg-extended .traffic-graph .traffic-graph-in{
+    display: block;
+    float: left;
+	background: rgb(255, 132, 102);
+	background: -moz-linear-gradient(180deg, rgb(255, 132, 102) 30%, rgb(255, 231, 214) 100%);
+	background: -webkit-linear-gradient(180deg, rgb(255, 132, 102) 30%, rgb(255, 231, 214) 100%);
+	background: -o-linear-gradient(180deg, rgb(255, 132, 102) 30%, rgb(255, 231, 214) 100%);
+	background: -ms-linear-gradient(180deg, rgb(255, 132, 102) 30%, rgb(255, 231, 214) 100%);
+	background: linear-gradient(270deg, rgb(255, 132, 102) 30%, rgb(255, 231, 214) 100%);
+    width: 100%;
+    text-align: center;
+    border-radius: 4px 4px 4px 4px;
+    height: 24px;
+}
+.alfa1c-optiimg-extended .traffic-graph .traffic-graph-out{
+    display: block;
+    float: left;
+    background: #3088c1;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px 4px 4px 4px;
+    height: 24px;
+}
+.alfa1c-optiimg-extended .traffic-graph .traffic-info{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 29px;
+    color: #fff;
+}
+.alfa1c-optiimg-extended .traffic-graph-container{
+    float: left;
+    width: 100%;
+    border-top: 1px solid rgb(230, 237, 239);
+    box-shadow: inset 0 1px 0 #fff, inset 0 0 0 1px rgba(255,255,255, 0.3);
+    padding-top: 7px;
+    position: relative;
+background: rgb(241, 241, 241);
+background: -moz-linear-gradient(90deg, rgb(241, 241, 241) 30%, rgb(230, 237, 239) 70%);
+background: -webkit-linear-gradient(90deg, rgb(241, 241, 241) 30%, rgb(230, 237, 239) 70%);
+background: -o-linear-gradient(90deg, rgb(241, 241, 241) 30%, rgb(230, 237, 239) 70%);
+background: -ms-linear-gradient(90deg, rgb(241, 241, 241) 30%, rgb(230, 237, 239) 70%);
+background: linear-gradient(180deg, rgb(241, 241, 241) 30%, rgb(230, 237, 239) 70%);
+    border-radius: 4px 4px 4px 4px;
+}
+.alfa1c-optiimg-extended .adm-info-message-wrap{
+	float:left;
+}
+.alfa1c-optiimg-extended #optiimg_compress_result_div{
+    text-align: left;
+    width: 400px;
+    float: left;
+}
+.alfa1c-optiimg-extended #optiimg_compress_result_div .adm-info-message-green,
+.alfa1c-optiimg-extended #optiimg_compress_result_div .adm-info-message-red
+{
+    display:none;
+}

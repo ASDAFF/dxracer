@@ -1,0 +1,249 @@
+2018-Nov-08 04:06:34 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2018-Nov-08 04:06:34 Обязательные параметры PHP (check_php_settings): Ok
+Настройки правильные
+2018-Nov-08 04:06:34 Модули веб-сервера (check_security): Ok
+Конфликтов не выявлено
+2018-Nov-08 04:06:34 Значения переменных сервера (check_server_vars): Ok
+Корректные
+2018-Nov-08 04:06:34 Сохранение сессии (check_session): Ok
+50% done
+2018-Nov-08 04:06:34 Сохранение сессии (check_session): Ok
+Успешно
+2018-Nov-08 04:06:34 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Правильные. Сайт работает в UTF кодировке
+2018-Nov-08 04:06:34 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2018-Nov-08 04:06:35 Работа с сокетами (check_socket): Ok
+Connection to mrogus5r.beget.tech:80	Success
+
+Успешно
+2018-Nov-08 04:06:35 Выполнение агентов на cron (check_bx_crontab): Fail
+Ошибка! Не настроен запуск cron_events.php на cron, последний агент отработал больше суток назад.
+2018-Nov-08 04:06:35 Параметры подключения к базе данных (check_dbconn_settings): Ok
+Успешно
+2018-Nov-08 04:06:35 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Connection to mrogus5r.beget.tech:80	Success
+
+Успешно
+2018-Nov-08 04:06:35 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+Connection to mrogus5r.beget.tech:80	Success
+
+2018-Nov-08 04:06:35 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to mrogus5r.beget.tech:80	Success
+
+Успешно
+2018-Nov-08 04:06:35 Настройки сайтов (check_sites): Ok
+Правильные
+2018-Nov-08 04:06:36 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2018-Nov-08 04:06:36 Размер стека и pcre.recursion_limit (check_pcre_recursion): Ok
+Connection to mrogus5r.beget.tech:80	Success
+
+Успешно
+2018-Nov-08 04:06:36 Загрузка файла (check_upload): Ok
+Connection to mrogus5r.beget.tech:80	Success
+
+Успешно
+2018-Nov-08 04:06:36 Загрузка файла больше 4Мб (check_upload_big): Ok
+Connection to mrogus5r.beget.tech:80	Success
+
+Успешно
+2018-Nov-08 04:06:36 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to mrogus5r.beget.tech:80	Success
+
+Успешно
+2018-Nov-08 04:06:36 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to mrogus5r.beget.tech:80	Success
+
+Успешно
+2018-Nov-08 04:06:36 Отправка почты (check_mail): Ok
+Успешно
+2018-Nov-08 04:06:37 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+Успешно
+2018-Nov-08 04:06:37 Проверка на наличие неотправленных сообщений (check_mail_b_event): Fail
+Ошибка! Есть ошибки при отправке системных почтовых сообщений, число неотправленных сообщений: 12 Определена константа BX_CRONTAB_SUPPORT в /bitrix/php_interface/dbconn.php, при этом должен быть настроен вызов агентов на cron.
+2018-Nov-08 04:06:37 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+Connection to mrogus5r.beget.tech:80	Success
+
+2018-Nov-08 04:06:37 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to mrogus5r.beget.tech:80	Success
+
+Успешно
+2018-Nov-08 04:06:37 Фактическое ограничение памяти (check_memory_limit): Ok
+20% done
+Connection to mrogus5r.beget.tech:80	Success
+
+2018-Nov-08 04:06:37 Фактическое ограничение памяти (check_memory_limit): Ok
+40% done
+Connection to mrogus5r.beget.tech:80	Success
+
+2018-Nov-08 04:06:37 Фактическое ограничение памяти (check_memory_limit): Ok
+60% done
+Connection to mrogus5r.beget.tech:80	Success
+
+2018-Nov-08 04:06:38 Фактическое ограничение памяти (check_memory_limit): Ok
+80% done
+Connection to mrogus5r.beget.tech:80	Success
+
+2018-Nov-08 04:06:38 Фактическое ограничение памяти (check_memory_limit): Ok
+Connection to mrogus5r.beget.tech:80	Success
+
+Не менее 256 М
+2018-Nov-08 04:06:38 Работа с файлами кеша (check_cache): Ok
+Успешно
+2018-Nov-08 04:06:39 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2018-Nov-08 04:06:39 HTTP авторизация (check_http_auth): Ok
+Connection to mrogus5r.beget.tech:80	Success
+
+Успешно
+2018-Nov-08 04:06:39 Создание и запуск файла (check_exec): Ok
+Connection to mrogus5r.beget.tech:80	Success
+
+Успешно
+2018-Nov-08 04:06:39 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2018-Nov-08 04:06:39 Версия MySQL-сервера (check_mysql_bug_version): Ok
+Успешно
+2018-Nov-08 04:06:40 Время на БД и веб-сервере (check_mysql_time): Ok
+Успешно
+2018-Nov-08 04:06:40 Режим работы MySQL (check_mysql_mode): Ok
+Успешно
+2018-Nov-08 04:06:40 Кодировка соединения (check_mysql_connection_charset): Ok
+character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
+Успешно
+2018-Nov-08 04:06:40 Кодировка базы данных (check_mysql_db_charset): Fail
+CHARSET=utf8, COLLATION=utf8_general_ci
+Ошибка! Сравнение для базы (utf8_general_ci) отличается от сравнения для соединения (utf8_unicode_ci). Исправить
+2018-Nov-08 04:06:40 Кодировки таблиц в БД (check_mysql_table_charset): Warning
+Замечание. Не проверено из-за ошибки кодировки базы
+2018-Nov-08 04:06:40 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+2018-Nov-08 04:06:40 Структура базы данных (check_mysql_table_structure): Ok
+2% done
+2018-Nov-08 04:06:40 Структура базы данных (check_mysql_table_structure): Ok
+4% done
+2018-Nov-08 04:06:40 Структура базы данных (check_mysql_table_structure): Ok
+6% done
+2018-Nov-08 04:06:40 Структура базы данных (check_mysql_table_structure): Ok
+8% done
+2018-Nov-08 04:06:41 Структура базы данных (check_mysql_table_structure): Ok
+10% done
+2018-Nov-08 04:06:41 Структура базы данных (check_mysql_table_structure): Ok
+12% done
+2018-Nov-08 04:06:41 Структура базы данных (check_mysql_table_structure): Ok
+14% done
+2018-Nov-08 04:06:41 Структура базы данных (check_mysql_table_structure): Ok
+16% done
+2018-Nov-08 04:06:41 Структура базы данных (check_mysql_table_structure): Ok
+18% done
+2018-Nov-08 04:06:41 Структура базы данных (check_mysql_table_structure): Ok
+20% done
+2018-Nov-08 04:06:41 Структура базы данных (check_mysql_table_structure): Ok
+22% done
+2018-Nov-08 04:06:41 Структура базы данных (check_mysql_table_structure): Ok
+24% done
+2018-Nov-08 04:06:42 Структура базы данных (check_mysql_table_structure): Ok
+26% done
+2018-Nov-08 04:06:42 Структура базы данных (check_mysql_table_structure): Ok
+28% done
+2018-Nov-08 04:06:42 Структура базы данных (check_mysql_table_structure): Ok
+30% done
+2018-Nov-08 04:06:42 Структура базы данных (check_mysql_table_structure): Ok
+32% done
+2018-Nov-08 04:06:42 Структура базы данных (check_mysql_table_structure): Ok
+34% done
+2018-Nov-08 04:06:42 Структура базы данных (check_mysql_table_structure): Ok
+36% done
+2018-Nov-08 04:06:42 Структура базы данных (check_mysql_table_structure): Ok
+38% done
+2018-Nov-08 04:06:42 Структура базы данных (check_mysql_table_structure): Ok
+40% done
+2018-Nov-08 04:06:42 Структура базы данных (check_mysql_table_structure): Ok
+42% done
+2018-Nov-08 04:06:43 Структура базы данных (check_mysql_table_structure): Ok
+44% done
+2018-Nov-08 04:06:43 Структура базы данных (check_mysql_table_structure): Ok
+46% done
+2018-Nov-08 04:06:43 Структура базы данных (check_mysql_table_structure): Ok
+48% done
+2018-Nov-08 04:06:43 Структура базы данных (check_mysql_table_structure): Ok
+50% done
+2018-Nov-08 04:06:44 Структура базы данных (check_mysql_table_structure): Ok
+52% done
+В таблице b_sale_order_payment поле PS_STATUS_DESCRIPTION "varchar(250) NULL DEFAULT NULL  " не соответствует описанию на диске "varchar(512) NULL DEFAULT NULL  "
+В таблице b_sale_order_payment не хватает поля MARKED
+В таблице b_sale_order_payment не хватает поля DATE_MARKED
+В таблице b_sale_order_payment не хватает поля EMP_MARKED_ID
+В таблице b_sale_order_payment не хватает поля REASON_MARKED
+
+2018-Nov-08 04:06:44 Структура базы данных (check_mysql_table_structure): Ok
+54% done
+2018-Nov-08 04:06:44 Структура базы данных (check_mysql_table_structure): Ok
+56% done
+2018-Nov-08 04:06:44 Структура базы данных (check_mysql_table_structure): Ok
+57% done
+2018-Nov-08 04:06:44 Структура базы данных (check_mysql_table_structure): Ok
+60% done
+2018-Nov-08 04:06:44 Структура базы данных (check_mysql_table_structure): Ok
+62% done
+2018-Nov-08 04:06:45 Структура базы данных (check_mysql_table_structure): Ok
+64% done
+2018-Nov-08 04:06:45 Структура базы данных (check_mysql_table_structure): Ok
+66% done
+2018-Nov-08 04:06:45 Структура базы данных (check_mysql_table_structure): Ok
+68% done
+2018-Nov-08 04:06:46 Структура базы данных (check_mysql_table_structure): Ok
+70% done
+2018-Nov-08 04:06:47 Структура базы данных (check_mysql_table_structure): Ok
+72% done
+2018-Nov-08 04:06:47 Структура базы данных (check_mysql_table_structure): Ok
+74% done
+В таблице b_iblock поле TIMESTAMP_X "timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP " не соответствует описанию на диске "timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP"
+В таблице b_iblock_property поле TIMESTAMP_X "timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP " не соответствует описанию на диске "timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP"
+В таблице b_iblock_section поле TIMESTAMP_X "timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP " не соответствует описанию на диске "timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP"
+В таблице b_iblock_cache поле CACHE_DATE "datetime NOT NULL DEFAULT "0000-00-00 00:00:00" " не соответствует описанию на диске "datetime NOT NULL "
+В таблице b_iblock_offers_tmp поле TIMESTAMP_X "timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP " не соответствует описанию на диске "timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP"
+
+2018-Nov-08 04:06:47 Структура базы данных (check_mysql_table_structure): Ok
+76% done
+2018-Nov-08 04:06:47 Структура базы данных (check_mysql_table_structure): Ok
+78% done
+2018-Nov-08 04:06:47 Структура базы данных (check_mysql_table_structure): Ok
+80% done
+2018-Nov-08 04:06:47 Структура базы данных (check_mysql_table_structure): Ok
+82% done
+2018-Nov-08 04:06:47 Структура базы данных (check_mysql_table_structure): Ok
+84% done
+2018-Nov-08 04:06:47 Структура базы данных (check_mysql_table_structure): Ok
+86% done
+2018-Nov-08 04:06:48 Структура базы данных (check_mysql_table_structure): Ok
+88% done
+2018-Nov-08 04:06:48 Структура базы данных (check_mysql_table_structure): Ok
+90% done
+В таблице b_form_menu поле MENU "varchar(50) NOT NULL " не соответствует описанию на диске "varchar(50) NULL DEFAULT NULL  "
+
+2018-Nov-08 04:06:48 Структура базы данных (check_mysql_table_structure): Ok
+92% done
+2018-Nov-08 04:06:48 Структура базы данных (check_mysql_table_structure): Ok
+94% done
+2018-Nov-08 04:06:48 Структура базы данных (check_mysql_table_structure): Ok
+96% done
+2018-Nov-08 04:06:48 Структура базы данных (check_mysql_table_structure): Ok
+98% done
+2018-Nov-08 04:06:48 Структура базы данных (check_mysql_table_structure): Fail
+ALTER TABLE `b_sale_order_payment` MODIFY `PS_STATUS_DESCRIPTION` varchar(512) NULL DEFAULT NULL  ;
+ALTER TABLE `b_sale_order_payment` ADD `MARKED` char(1) null default null  ;
+ALTER TABLE `b_sale_order_payment` ADD `DATE_MARKED` datetime null default null  ;
+ALTER TABLE `b_sale_order_payment` ADD `EMP_MARKED_ID` int(11) null default null  ;
+ALTER TABLE `b_sale_order_payment` ADD `REASON_MARKED` varchar(255) null default null  ;
+ALTER TABLE `b_iblock` MODIFY `TIMESTAMP_X` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP;
+ALTER TABLE `b_iblock_property` MODIFY `TIMESTAMP_X` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP;
+ALTER TABLE `b_iblock_section` MODIFY `TIMESTAMP_X` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP;
+ALTER TABLE `b_iblock_cache` MODIFY `CACHE_DATE` datetime NOT NULL ;
+ALTER TABLE `b_iblock_offers_tmp` MODIFY `TIMESTAMP_X` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP;
+ALTER TABLE `b_form_menu` MODIFY `MENU` varchar(50) NULL DEFAULT NULL  ;
+Ошибка! Структура базы данных имеет ошибки (нет таблиц: 0, нет полей: 4, поля отличаются: 7, нет индексов: 0). Всего 11, автоматически могут быть исправлены: 11. Исправить

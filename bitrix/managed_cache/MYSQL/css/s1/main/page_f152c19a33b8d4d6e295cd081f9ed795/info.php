@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/local/templates/main/components/bitrix/sale.personal.order.list/.default/style.css" => "158529201415483","/bitrix/components/bitrix/sale.order.payment.change/templates/.default/style.css" => "15841657676552",)); ?>

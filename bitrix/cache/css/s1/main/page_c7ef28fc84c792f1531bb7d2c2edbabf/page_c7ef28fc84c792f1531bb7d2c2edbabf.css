@@ -1,0 +1,174 @@
+
+
+/* Start:/local/templates/main/components/bitrix/breadcrumb/template1/style.css?1585292014554*/
+.bx-breadcrumb {
+	margin: 10px 0;
+}
+.bx-breadcrumb i {
+	color: #b5bdc2;
+	line-height: 13px;
+	font-size: 12px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.bx-breadcrumb .bx-breadcrumb-item {
+	float: left;
+	margin-bottom: 10px;
+	white-space: nowrap;
+	line-height: 13px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.bx-breadcrumb .bx-breadcrumb-item span {
+	
+	font-size: 14px;
+	white-space: normal;
+	color:#d1d1d1;
+}
+.bx-breadcrumb .bx-breadcrumb-item a span{border-bottom: none; color:#333!important;}
+.bx-breadcrumb .bx-breadcrumb-item a:hover {}
+
+/* End */
+
+
+/* Start:/local/templates/main/components/bitrix/news.list/flat_feed/themes/blue/style.css?1585292014251*/
+/*RATING*/
+.bx-newslist .fa.bx-star-active {
+	color: #1485CE;
+}
+/*BTN*/
+.bx-newslist .btn {
+	background-color: #1485CE;
+	border-color: #1485CE;
+}
+.bx-newslist .btn:active,
+.bx-newslist .btn:hover {
+	background-color: #53A4D8;
+	border-color: #53A4D8;
+}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/system.pagenavigation/templates/round/style.css?15841658172917*/
+.bx-pagination {
+	margin: 10px 0;
+}
+.bx-pagination .bx-pagination-container {
+	text-align: center;
+	position: relative;
+}
+.bx-pagination .bx-pagination-container ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+}
+.bx-pagination .bx-pagination-container ul li {
+	display: inline-block;
+	margin: 0 2px 15px 2px;
+}
+.bx-pagination .bx-pagination-container ul li span{
+    -webkit-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+       -moz-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    	-ms-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    	 -o-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    		transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+	background: #eff0f1;
+	padding: 0 8px;
+	display: block;
+	height: 32px;
+	min-width: 32px;
+	line-height: 32px;
+	color: #444;
+	font-size: 14px;
+	border-radius: 16px;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.bx-pagination .bx-pagination-container ul li a {
+	text-decoration: none;
+	display: block;
+	border-radius: 16px;
+	height: 32px;
+	min-width: 32px;
+	line-height: 32px;
+	color: #444;
+	vertical-align: middle;
+}
+.bx-pagination .bx-pagination-container ul li a:hover span{
+	background: #DADADA;
+}
+.bx-pagination .bx-pagination-container ul li.bx-active span{
+	background: #0083d1;
+	color: #fff;
+}
+.bx-pagination .bx-pagination-container ul li.bx-pag-all a span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev a span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next a span {
+	background: #fff;
+	border: 2px solid #eff0f1;
+	line-height: 28px;
+	padding: 0 18px;
+	color: #444;
+}
+.bx-pagination .bx-pagination-container ul li.bx-pag-all span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next span{
+	color: #aab1b4;
+	background: #fff;
+	border: 2px solid #eff0f1;
+	line-height: 28px;
+	padding: 0 18px;
+}
+.bx-pagination .bx-pagination-container ul li.bx-pag-all a:hover span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev a:hover span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next a:hover span {
+	background: #fff;
+	border-color: #DADADA;
+	color: #000;
+}
+
+/*color schemes*/
+.bx-pagination.bx-green  .bx-pagination-container ul li.bx-active span{
+	background: #3bc915;
+	color: #fff;
+}
+.bx-pagination.bx-yellow  .bx-pagination-container ul li.bx-active span{
+	background: #F9A91D;
+	color: #fff;
+}
+.bx-pagination.bx-red  .bx-pagination-container ul li.bx-active span{
+	background: #E22B2B;
+	color: #fff;
+}
+.bx-pagination.bx-blue .bx-pagination-container ul li.bx-active span{
+	background: #0083d1;
+	color: #fff;
+}
+
+/* End */
+
+
+/* Start:/local/templates/main/components/bitrix/iblock.vote/flat/style.css?1585300812208*/
+.bx-rating {
+	color: #ffbf01;
+	font-size: 17px;
+	white-space: nowrap;
+	margin-bottom:20px;
+}
+.bx-rating i.fa {
+	cursor: pointer;
+}
+.fa.bx-star-active {
+	color: #ffbf01;
+}
+.bx-rating i.fa{
+	margin-right:3px;
+}
+/* End */
+/* /local/templates/main/components/bitrix/breadcrumb/template1/style.css?1585292014554 */
+/* /local/templates/main/components/bitrix/news.list/flat_feed/themes/blue/style.css?1585292014251 */
+/* /bitrix/components/bitrix/system.pagenavigation/templates/round/style.css?15841658172917 */
+/* /local/templates/main/components/bitrix/iblock.vote/flat/style.css?1585300812208 */

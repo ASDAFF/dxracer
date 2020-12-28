@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/local/templates/main/components/bitrix/sale.basket.basket/basket/themes/blue/style.css" => "15852920148845",)); ?>

@@ -1,0 +1,26 @@
+
+
+/* Start:/bitrix/components/bitrix/catalog.search/templates/.default/style.css?1584165655163*/
+a.search-page-params {
+	border-bottom: 1px dashed blue;
+	text-decoration: none;
+}
+div.search-page-params {
+	margin-top: 6px;
+}
+.search-item-rate {font-size: 11px;}
+/* End */
+
+
+/* Start:/local/templates/main/components/bitrix/search.page/.default/style.css?1585292014163*/
+a.search-page-params {
+	border-bottom: 1px dashed blue;
+	text-decoration: none;
+}
+div.search-page-params {
+	margin-top: 6px;
+}
+.search-item-rate {font-size: 11px;}
+/* End */
+/* /bitrix/components/bitrix/catalog.search/templates/.default/style.css?1584165655163 */
+/* /local/templates/main/components/bitrix/search.page/.default/style.css?1585292014163 */

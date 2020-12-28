@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/local/templates/main/components/bitrix/catalog.section/serial/script.js" => "158529201441249",)); ?>
