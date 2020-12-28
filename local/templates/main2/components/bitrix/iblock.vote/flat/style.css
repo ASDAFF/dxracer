@@ -1,0 +1,15 @@
+.bx-rating {
+	color: #daad86;
+	font-size: 17px;
+	white-space: nowrap;
+	margin-bottom:20px;
+}
+.bx-rating i.fa {
+	cursor: pointer;
+}
+.fa.bx-star-active {
+	color: #daad86;
+}
+.bx-rating i.fa{
+	margin-right:3px;
+}

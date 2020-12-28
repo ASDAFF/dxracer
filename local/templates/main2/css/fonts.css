@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'GothaProReg';
+    src: url('/local/templates/main/fonts/GothaProReg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProNarMed';
+    src: url('/local/templates/main/fonts/GothaProNarMed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProNarBol';
+    src: url('/local/templates/main/fonts/GothaProNarBol.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProMedIta';
+    src: url('/local/templates/main/fonts/GothaProMedIta.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProMed';
+    src: url('/local/templates/main/fonts/GothaProMed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProLigIta';
+    src: url('/local/templates/main/fonts/GothaProLigIta.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProLig';
+    src: url('/local/templates/main/fonts/GothaProLig.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProIta';
+    src: url('/local/templates/main/fonts/GothaProIta.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProBolIta';
+    src: url('/local/templates/main/fonts/GothaProBolIta.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProBol';
+    src: url('/local/templates/main/fonts/GothaProBol.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProBlaIta';
+    src: url('/local/templates/main/fonts/GothaProBlaIta.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProBla';
+    src: url('/local/templates/main/fonts/GothaProBla.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
