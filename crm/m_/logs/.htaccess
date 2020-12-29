@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName admin
+AuthUserFile /home/bitrix/crm/m/logs/.htpasswd
+require valid-user

@@ -1,0 +1,31 @@
+SELECT
+  *,
+
+  calc_price                                                       AS calc_price_min,
+
+  ROUND((((calc_price - cur_price) * 100) / calc_price))                                                                        AS percent_change,
+  if(ABS(ROUND((((calc_price - cur_price) * 100) / calc_price))) <= 5, 'white',
+     if(ABS(ROUND((((calc_price - cur_price) * 100) / calc_price))) > 5
+        AND ABS(ROUND((((calc_price - cur_price) * 100) / calc_price))) <= 15, '#FFFF99', '#FFCCCC')) AS color
+FROM price_all AS PA
+  LEFT JOIN (
+              SELECT
+                model                                                                 AS model,
+                min                                                                   AS min,
+                @ratio := IF(min < 12000, 0.98,
+                             IF(min >= 12000 AND min < 15000, 0.94,
+                                IF(min >= 15000 AND min < 20000, 0.91,
+                                   IF(min >= 20000 AND min < 27000, 0.88,
+                                      IF(min >= 27000 AND min < 40000, 0.85, 0.8))))) AS ratio,
+
+                (CEIL((min * @ratio) / 100) * 100)                                    AS calc_price
+              FROM (
+                     SELECT
+                       model,
+                       MIN(price) AS min
+                     FROM price_competitor_big_games
+                     WHERE price != 0
+                     GROUP BY model
+                   ) AS F1
+            ) AS FF1
+    ON PA.model = FF1.model

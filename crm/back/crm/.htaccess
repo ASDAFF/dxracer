@@ -1,0 +1,8 @@
+#AuthType Basic
+#AuthName admin
+#AuthUserFile /home/bitrix/zakaz1234/q/logs/.htpasswd
+#require valid-user
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php

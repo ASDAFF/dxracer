@@ -1,0 +1,8 @@
+AuthType Basic
+AuthName admin
+require valid-user
+<Files .htpasswd>
+   deny from all
+</Files>
+AuthUserFile  /home/bitrix/www/crm/t/sklad/.htpasswd
+ErrorDocument 401 /t/401.html

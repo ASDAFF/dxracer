@@ -1,0 +1,15 @@
+INSERT INTO `zakaz1234`.`crm` (
+`id`,
+`data_insert`,
+`who`,
+`name`,
+`phone`,
+`email`,
+`adress`,
+`details`,
+`models`,
+`prices`
+)
+VALUES (
+NULL,
+CURRENT_TIMESTAMP, 'BV', '', ' ', '' '', '', '', '')

@@ -1,0 +1,34 @@
+.fixed
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#generalTable_filter{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+
+.glyphicon{
+    cursor: pointer;
+}
+
+.radio{
+    margin: 0;
+}
+
+input[type=checkbox]{
+    width: 25px;
+    height: 25px;
+}
+
+.btn-default.active{
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}

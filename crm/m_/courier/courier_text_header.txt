@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" lang="ru">
+	<title>Расписка</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		ul, ol {
+			margin-left: 21px;
+		}
+
+		#full_text {
+			font-size: 8pt;
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		td {
+			padding: 3px;
+		}
+
+		.elements {
+			font-size: 9pt;
+
+		}
+
+		.elements td {
+			border: 1px solid #000;
+		}
+
+		.b td {
+			font-weight: bold;
+
+		}
+
+		@media print {
+			.page_break {
+				page-break-after: always;
+			}
+		}
+	</style>
+
+</head>
+<body style="font-family: 'Times New Roman', 'serif'; width: 800px;margin: 0 auto; ">
