@@ -203,8 +203,8 @@ $domein = 1;
 <div class="feed-form-box">
     <div class="container">
         <h2 class="text-center">Оставить отзыв</h2><br>
-        <div class="col-xs-4"></div>
-        <div class="col-xs-4">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
         <div class="mfeedback">
 
 <form action="javascript:void(0);" method="POST" id="feedbackForm">
