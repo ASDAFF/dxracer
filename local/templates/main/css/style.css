@@ -451,6 +451,7 @@ margin-bottom:20px;
     padding:0px!important;
     background:#fff;
     overflow: hidden;
+    margin-bottom: 15px;
 }
 .bx_catalog_item_controls,.bx_catalog_item_price{
     border-top:1px solid #cecece;
