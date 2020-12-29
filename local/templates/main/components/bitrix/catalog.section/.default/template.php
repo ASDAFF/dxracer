@@ -168,7 +168,7 @@ foreach ($arResult['ITEMS'] as $key => $arItem)
 	if (isset($arItem['MIN_PRICE']) || isset($arItem['RATIO_PRICE']))
 		$minPrice = (isset($arItem['RATIO_PRICE']) ? $arItem['RATIO_PRICE'] : $arItem['MIN_PRICE']);
 
-	?><div class="<? echo ($arItem['SECOND_PICT'] ? 'bx_catalog_item double' : 'bx_catalog_item'); ?> col-xs-3"><div class="bx_catalog_item_container col-xs-12" id="<? echo $strMainID; ?>">
+	?><div class="<? echo ($arItem['SECOND_PICT'] ? 'bx_catalog_item double' : 'bx_catalog_item'); ?> col-sm-3"><div class="bx_catalog_item_container col-xs-12" id="<? echo $strMainID; ?>">
 		<?if(!empty($arItem['DISPLAY_PROPERTIES']['HIT']) || !empty($arItem['DISPLAY_PROPERTIES']['SALE']) ):?>
 	<div class='label-stic'>
 		<?
