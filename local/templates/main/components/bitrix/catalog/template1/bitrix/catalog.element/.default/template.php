@@ -315,7 +315,7 @@ if ($arResult['SHOW_SLIDER'])
 				</div>
 				<div class='clearfix'></div>
 
-					<p class="cena_deistvuet">Цена действует до:<br><span id="countDown" class='sale-detail-box'><?=$end_day?> <?=$arr[$month]?> <?=$end_y?> 23:59</span></p>
+					<p class="cena_deistvuet">Цена действует до: <span class="block"></span><span id="countDown" class='sale-detail-box'><?=$end_day?> <?=$arr[$month]?> <?=$end_y?> 23:59</span></p>
 
 					<?else:?>
 

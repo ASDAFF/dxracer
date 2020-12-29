@@ -91,7 +91,7 @@
 	        <li><a href="/catalog/sale.php">АКЦИИ</a></li>
        		<li><a href="/personal/">ЛИЧНЫЙ КАБИНЕТ</a></li>
        		<li><a href="/auth/">Вход</a></li>
-       		<li><a href="/registration.php">Регистрация</a></li>
+       		<!-- <li><a href="/registration.php">Регистрация</a></li> -->
         
 	  </ul>
 	  <ul class="nav navbar-nav navbar-right  col-md-4">

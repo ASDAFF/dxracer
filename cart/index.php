@@ -20,6 +20,8 @@ $domain = 2;
 		<input type='text' name='name' class='form-control f1 js-f-name' required value="" placeholder="ФИО *" ></div>
 		<div class='form-group'><input type='text' name='email' class='form-control f1 js-f-mail' required value="" placeholder="E-MAIL *"></div>
 		<div class='form-group'><input type='text' name='phone' class='mask-phone js-f-phone form-control f1' required value="" placeholder="ТЕЛЕФОН *"></div>
+		<div class="form-group"><textarea name="adress" required="" class="form-control f1 js-f-adress" placeholder="ПОЛНЫЙ АДРЕС ДОСТАВКИ *"></textarea></div>
+		<div class="form-group"><textarea name="comment" rows="5" class="form-control " placeholder="КОММЕНТАРИЙ"></textarea></div>
 		<div class='form-group usloviya'>
 		<div class='sec-dus'>
 			<p>

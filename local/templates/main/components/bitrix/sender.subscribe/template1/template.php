@@ -14,6 +14,7 @@
 $buttonId = $this->randString();
 ?>
 <div class="bx-subscribe"  id="sender-subscribe">
+
 <?
 $frame = $this->createFrame("sender-subscribe", false)->begin();
 ?>

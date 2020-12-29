@@ -11,22 +11,23 @@
 				<li><a href='/politika/'>Политика возврата</a></li>
 				<li><a href='/podlinnost-i-garantiya/'>Подлинность и гарантия</a></li>
 				<li><a href='/contacts/'>Контакты</a></li>
+				<li class="text-right cont"> <a href='/contacts/'  class='footer-mail-new'>Обратная связь</a></li>
 			</ul>
-			<div class='col-xs-12 col-lg-3  text-right'>
+			<!-- <div class='col-xs-12 col-lg-3  text-right'>
 				<a href='/contacts/'  class='footer-mail-new'>Обратная связь</a>
-			</div>
+			</div> -->
 			<div class='clearfix'></div>
 		</div>
 		<br>
 		<div class='footer-info'>
 			<table class='table'>
 				<tr>
-					<div class='td1 col-xs-12 col-lg-3'>
+					<div class='td1 col-xs-12 col-lg-3 col-sm-6'>
 						<a href='/'>
 							<img src='/local/templates/main/img/logo.png' class='img-responsive logo'>
 						</a>
 					</div>
-					<div class='td2 col-xs-12 col-lg-6'>
+					<div class='td2 col-xs-12 col-lg-6 col-sm-6'>
 						<div class='phone-footer  text-center'>
 							<a href='tel:+784954099105'><span><img src='/local/templates/main/img/phone.png' ></span>8 (495) 409-9105</a><BR>
 						</div>

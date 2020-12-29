@@ -276,7 +276,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 </div>
 
 
-<div class='block-subscribe text-center hidden-xs'>
+<div class='block-subscribe text-center'>
 <p class='text-center'>Подписка на новости</p>
     <div class='container'>
         <?$APPLICATION->IncludeComponent("bitrix:sender.subscribe", "template1", Array(

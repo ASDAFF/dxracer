@@ -717,10 +717,10 @@ padding-left:5px;
 .feedback-block{
     padding:0px!important;
     background: #fff;
-    min-height:500px;
+    min-height:500px;margin-bottom: 15px;
 }
 .text-feed{
-   padding:60px 30px 20px;
+   padding:20px;
    font-size:12px;
 }
 .contact-page{
@@ -1342,6 +1342,78 @@ font-weight: 800;
       cursor: pointer;position: relative;
       z-index: 9999999;
   }
+  .cena_deistvuet .block {
+    display: block;
+}
+@media (max-width:960px) {
+   .bx_slider_scroller_container .bx_slide{ margin-top: 18px!important}
+   .cena_deistvuet .block {
+    display: inline-block;
+}
+}
+
+  @media (max-width: 767px){
+    .feedback-block{
+        min-height: auto;
+    }
+  }
+  @media (max-width:800px) and (min-width:580px) {
+    .bx-input-subscribe .form-control{
+        width: 60%;
+        float: left;
+    }
+    .block-little-about{
+        padding: 20px;
+        padding-bottom: 30px;
+
+    }
+  }
+  @media (max-width:579px) {
+    .bx-input-subscribe .form-control{
+        width: 100%;
+    }
+    .bx-input-subscribe .subscribe-btn{
+        margin-top:15px
+    }
+    .block-little-about{
+        padding: 2px;
+        padding-bottom: 80px;
+    }
+    .cena_deistvuet{
+        font-size: 13px!important;
+
+    }
+    .sale-detail-box{
+        border:none!important;
+        padding: 4px!important;
+        font-size: 14px!important;
+
+    }
+    .detail-page td{
+        padding: 15px 10px!important;
+    }
+    
+    .bx_item_detail .bx_item_slider .bx_bigimages{
+        position: relative!important;
+    }
+    .el-name h1{
+        font-size: 20px!important;
+    }
+    .bx_item_detail .item_price{
+        margin-top: 0px!important;;
+    }
+  }
+.footer ul .cont {
+    margin-bottom: 20px;
+}
+
+@media (max-width:800px) {
+    .footer-info img.logo{
+        margin:auto
+    }
+    .footer-info .al {
+      text-align: center;margin-top: 15px;;
+    }
+}
 
 
-  

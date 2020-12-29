@@ -40,7 +40,7 @@ $this->addExternalCss($this->GetFolder().'/themes/'.$arParams['TEMPLATE_THEME'].
 		</div>
 	</div>
 	<?else:?>
-	<div class='col-xs-4'>
+	<div class='col-sm-4'>
 		<div class="col-xs-12 feedback-block">
 		
 		<div class='text-feed'>
