@@ -1350,6 +1350,15 @@ font-weight: 800;
    .cena_deistvuet .block {
     display: inline-block;
 }
+.sale-detail-box{
+    border:none!important;
+    padding: 4px!important;
+    font-size: 14px!important;
+
+}
+.only_original.vir-al{
+    height: 20px!important;
+}
 }
 
   @media (max-width: 767px){
@@ -1383,12 +1392,7 @@ font-weight: 800;
         font-size: 13px!important;
 
     }
-    .sale-detail-box{
-        border:none!important;
-        padding: 4px!important;
-        font-size: 14px!important;
-
-    }
+   
     .detail-page td{
         padding: 15px 10px!important;
     }

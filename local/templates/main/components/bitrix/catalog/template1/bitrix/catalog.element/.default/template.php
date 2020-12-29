@@ -254,7 +254,7 @@ if ($arResult['SHOW_SLIDER'])
 							$minPrice = (isset($arResult['RATIO_PRICE']) ? $arResult['RATIO_PRICE'] : $arResult['MIN_PRICE']);
 							$boolDiscountShow = (0 < $minPrice['DISCOUNT_DIFF']);
 							?>
-							<?if($arResult['PRICES']['OLD_PRICE']['VALUE']!=0 && !empty($arResult['PRICES']['OLD_PRICE']['VALUE'])):?>
+							<?if($arResult['PRICES']['OLD_PRICE']['VALUE']!=0 && !empty($arResult['PRICES']['OLD_PRICE']['VALUE'])){?>
 							<div class="item_current_price" id="<? echo $arItemIDs['PRICE']; ?>"><? echo CurrencyFormat($minPrice['DISCOUNT_VALUE'], 'RUB'); ?></div>
 							
 							<div class='old-price-time'><?=CurrencyFormat($arResult['PRICES']['OLD_PRICE']['VALUE'], 'RUB');?></div>
@@ -304,27 +304,14 @@ if ($arResult['SHOW_SLIDER'])
 						?>
 					</div>
 					
-					<div class='col-xs-12 col-lg-3'>
-						<?if($arResult['CATALOG_QUANTITY']>0):?>
-							<? //echo "<pre>"; print_r($arResult['PROPERTIES']['PROP13']); echo "</pre>";?>
-							<span class='instock'><img src="/local/templates/main/img/in_stock.png"></span>
-						<?else:?>
-						<span class='nostock' style="font-size:10px;">Нет в наличии</span>
-						<?endif;?>
-					</div>
-				</div>
-				<div class='clearfix'></div>
-
-					<p class="cena_deistvuet">Цена действует до: <span class="block"></span><span id="countDown" class='sale-detail-box'><?=$end_day?> <?=$arr[$month]?> <?=$end_y?> 23:59</span></p>
-
-					<?else:?>
+					
+					<? } else { ?>
 
 						<div class="item_current_price" id="<? echo $arItemIDs['PRICE']; ?>"><? echo CurrencyFormat($arResult['MIN_PRICE']['VALUE'], 'RUB'); ?></div>
-							
-					</div>
-					<div class="col-xs-12 col-lg-3">				
-					</div>
-					
+						</div>
+						<div class="col-xs-12 col-lg-3"></div>
+						<? }?>
+
 					<div class='col-xs-12 col-lg-3'>
 						<?if($arResult['CATALOG_QUANTITY']>0):?>
 							<? //echo "<pre>"; print_r($arResult['PROPERTIES']['PROP13']); echo "</pre>";?>
@@ -335,10 +322,17 @@ if ($arResult['SHOW_SLIDER'])
 					</div>
 				</div>
 				<div class='clearfix'></div>
+					  <div class="cen org">
+				<?if($arResult['PRICES']['OLD_PRICE']['VALUE']!=0 && !empty($arResult['PRICES']['OLD_PRICE']['VALUE'])){?>
+					<p class="cena_deistvuet col-xs-6">Цена действует до: <span class="block"></span><span id="countDown" class='sale-detail-box'><?=$end_day?> <?=$arr[$month]?> <?=$end_y?> 23:59</span></p>
+					<div class="only_original col-xs-6 vir-al"><img src="/local/templates/main/img/only_original.png"></div>
+					<? }else{
+						?>
+					<div class="only_original col-xs-6"><img src="/local/templates/main/img/only_original.png"></div>
+					<? }?>
+				<div class='clearfix'></div>
 
-					<?endif;?>
-					
-					<div class="only_original"><img src="/local/templates/main/img/only_original.png"></div>
+					</div>
 					<br>
 					<?if($arResult['CATALOG_QUANTITY']>0){?>
 					<div class="item_buttons vam col-xs-12">

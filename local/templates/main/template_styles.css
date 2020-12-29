@@ -119,12 +119,17 @@
     background: #f6f6f6;
     padding-bottom: 30px;
 }
-.only_original {
-    width: 50%;
-    float: right;
-    margin-top: 62px;
-    text-align: right;
+.only_original>img {
+    margin: 20px 0;
 }
+.only_original.vir-al {
+    position: relative;height: 150px
+}
+.only_original.vir-al>img {margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);}
 .bx_item_detail .item_buttons_counter_block{
     margin-bottom: 28px;
 }.free_delivery {
